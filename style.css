@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  position: relative;
+  top: 25%;
+  text-align: center;
+}
+.sign-up-section {
+  display: flex;
+}
+
+.side-image {
+  width: 30%;
+}
+
+.form-container {
+  width: 70%;
+  text-align: center;
+}
