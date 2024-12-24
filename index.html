@@ -10,39 +10,52 @@
     <section class="sign-up-section">
       <div class="side-image">
         <div class="side-image-title">
-          <h1 class="hero-title">paradise beach</h1>
+          <div class="logo">
+            <img
+              src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png"
+              alt="Odin logo"
+            />
+          </div>
+          <h1 class="hero-title">Odin</h1>
         </div>
-        <figcaption>Photo by Ennio Berti on Unsplash</figcaption>
+        <p>Photo by Kelly Sikkema on Unsplash</p>
       </div>
       <div class="form-container">
         <h2>This form is for practicing purpose.</h2>
-        <h3>Sign up for your dream beach trip here!</h3>
+        <h3>Sign up for being part of our enthusiastic community!</h3>
         <div class="bg">
           <p>Fields marked as * are required</p>
           <form action="#" method="post" id="create-account-form">
             <div>
-              <label for="first-name"><span aria-label="required">*</span>First name:</label>
+              <label for="first-name"><span aria-label="required">* </span>First name:</label>
               <input type="text" name="first-name" id="first-name" minlength="1" maxlength="100" required />
             </div>
             <div>
-              <label for="last-name"><span aria-label="required">*</span>Last name:</label>
+              <label for="last-name"><span aria-label="required">* </span>Last name:</label>
               <input type="text" name="last-name" id="last-name" minlength="1" maxlength="100" required />
             </div>
             <div>
-              <label for="email"><span aria-label="required">*</span>Email:</label>
-              <input type="email" name="email" id="email" required />
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" />
             </div>
             <div>
               <label for="phone">Phone number:</label>
               <input type="tel" name="phone" id="phone" />
             </div>
             <div>
-              <label for="pw"><span aria-label="required">*</span>Password:</label>
-              <input type="password" name="password" id="pw" required />
+              <label for="pw"><span aria-label="required">* </span>Password:</label>
+              <input type="password" name="password" id="pw" required minlength="6" maxlength="25" />
             </div>
             <div>
-              <label for="pw-confirm"><span aria-label="required">*</span>Password confirmation:</label>
-              <input type="password" name="password-confirmation" id="pw-confirm" required />
+              <label for="pw-confirm"><span aria-label="required">* </span>Password confirmation:</label>
+              <input
+                type="password"
+                name="password-confirmation"
+                id="pw-confirm"
+                required
+                minlength="6"
+                maxlength="25"
+              />
             </div>
           </form>
         </div>
